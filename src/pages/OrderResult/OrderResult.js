@@ -8,9 +8,6 @@ const OrderResult = ({ setModal, items, totalWeight, totalPrice, address }) => {
     navigate('/');
   };
 
-  const handleGoMain = () => {
-    navigate('/');
-  };
   return (
     <div className="orderResult">
       <button onClick={() => setModal(false)} className="closeBtn">
